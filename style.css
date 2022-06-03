@@ -18,7 +18,7 @@ section{
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(images/bg.jpg)no-repeat;
+  background: url(images/bg.jpg)no-repeat ; 
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -194,6 +194,16 @@ body{
   transform: translateX(-50%);
 }
 
+
+/* .fa-facebook-f:hover{
+  
+
+  
+ 
+} */
+
+
+
 .about .content{
   position: relative;
   width: 100%;
@@ -222,7 +232,7 @@ body{
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100%; 
   height: 110%;
   object-fit: cover;
   border-radius: 10px;
@@ -233,12 +243,49 @@ body{
   font-size: 2em;
   font-weight: 800;
   margin-bottom: 20px;
-  color: #f6f5f7;
+  color: #ebeaec;
+  text-shadow: 0 0 3spx #812bd7, 0 0 5px #ebebee;
 }
 
 .about .content .col-right .paragraph-text{
   font-size: 1em;
 }
+
+
+
+
+
+.certificates , .projects {
+  width: 900px;
+  height: 800px;
+  margin: 20px;
+  margin-bottom: 20px;
+  display: block;
+  margin: auto;
+  color: #443b58;
+}
+
+.sec-certi {
+  padding-top: 0px;
+  padding-left: 0px;
+}
+
+.education {
+  justify-content: left; 
+  text-align: left; 
+  color: #393844;
+  margin-left: 15px;
+}
+
+hr {
+  border: 1.5px solid rgb(137, 137, 214);
+  border-radius: 1px;
+  width: 79%;
+}
+
+
+
+
 
 .skills{
   background: #000016;
@@ -274,6 +321,10 @@ body{
   height: 30px;
   margin-left: 50px;
   /* text-align: center; */
+}
+
+.hr-in-skills {
+  width: 100%;
 }
 
 .skills .content .col-right{
@@ -403,45 +454,7 @@ body{
   margin: 10px;
 }
 
-.work{
-  background: #000016;
-}
 
-.work .content{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-.work .content .card{
-  width: 340px;
-  margin: 15px;
-}
-
-.work .content .card .card-img{
-  position: relative;
-  width: 100%;
-  height: 260px;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.work .content .card .card-img img{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  transition: 0.5s ease;
-}
-
-.work .content .card .card-img img:hover{
-  transform: scale(1.2);
-}
 
 .contact .content{
   display: flex;
